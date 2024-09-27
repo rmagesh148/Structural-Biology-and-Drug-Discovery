@@ -1,4 +1,4 @@
-# Protein-Structure-Docking-and-Protein-Protein-Interaction
+# Structural-Biology-and-Drug-Discovery
 
 ---
 
