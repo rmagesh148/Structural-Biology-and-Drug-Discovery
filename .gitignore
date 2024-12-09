@@ -3,3 +3,6 @@
 
 # Notebook Checkpoints
 *.ipynb_checkpoints/
+
+# History
+.Rhistory
