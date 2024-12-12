@@ -6,13 +6,18 @@ The Structural Biology and Drug Discovery course, a comprehensive learning exper
 
 ## **Contents**
 
-- [Overview](#overview)
-- [Background](#background)
-- [Before Starting](#before-starting)
-- [Getting Started](#getting-started)
-- [Software Requirements](#software-requirements)
-- [Architecture Design](#architecture-design)
-- [Data](#data)
+- [Course Overview](#overview)
+- [Learning Objectives](#background)
+- [Course Prerequisites](#before-starting)
+- [Setup and Installation](#getting-started)
+- [Course Modules](#software-requirements)
+	- Module 1: Protein Structure
+	- Module 2: Docking and Protein-Protein Interaction
+	- Module 3: Drug Design
+- [Resources and Tools](#architecture-design)
+- [Datasets](#data)
+- [Assignments and Quizzes](#funding)
+- [Support](#support)
 - [Funding](#funding)
 - [License for Data](#license-for-data)
 
@@ -23,7 +28,7 @@ Format: Tutorials, practical exercises, quizzes, and assignments
 Tools: All codes and analyses can be run using free web-based tools and Google Colab notebooks.
 
 
-## **Background**
+## **Learning Objectives**
 By the end of this course, you will be able to:
  - Visualize 3D protein structures.
  - Understand protein secondary, tertiary, and quaternary structures.
@@ -32,7 +37,7 @@ By the end of this course, you will be able to:
  - Explore binding pockets and understand amino acid interactions in drug design.
 
 
-## **Before Starting**
+## **Course Prerequisites**
 
 ## **Getting Started**
 
