@@ -1,52 +1,58 @@
-# Structural-Biology-and-Drug-Discovery
-The Structural Biology and Drug Discovery course, a comprehensive learning experience designed to provide you with the skills and knowledge necessary to explore the 3D structure of proteins, analyze drug interactions, and apply computational techniques to modern drug discovery. This course offers a hands-on approach, guiding you through essential concepts in protein structure visualization, protein-ligand interactions, and computational docking. You will work with cutting-edge tools such as PyMOL for molecular visualization, AutoDock for protein-ligand docking simulations, and ClusPro for protein-protein interaction analysis. Each module is carefully structured to build your expertise, starting with basic protein structure analysis, moving through computational methods for docking, and culminating in advanced drug design techniques. By the end of the course, you will be able to visualize protein structures, predict how drugs and proteins interact, perform docking calculations, and even design new drug molecules. All practical exercises are conducted using free web-based tools or Google Colab. Whether you are an undergraduate student, a researcher, or a professional in molecular biology or bioinformatics, this course will provide you with practical, real-world experience in structural biology and computational drug discovery. With the increasing importance of drug development in addressing global health challenges, this course is your gateway to becoming proficient in the computational methods that drive modern therapeutic innovations.
+# Structural Biology and Drug Discovery
 
-
----
+-------------
 
 ## **Contents**
 
-- [Course Overview](#overview)
-- [Learning Objectives](#background)
-- [Course Prerequisites](#before-starting)
-- [Setup and Installation](#getting-started)
-- [Course Modules](#software-requirements)
-	- Module 1: Protein Structure
-	- Module 2: Docking and Protein-Protein Interaction
-	- Module 3: Drug Design
-- [Resources and Tools](#architecture-design)
-- [Datasets](#data)
-- [Assignments and Quizzes](#funding)
-- [Support](#support)
+- [Background](#background)
+- [Overview](#overview)
+- [Before Starting](#before-starting)
+- [Getting Started](#getting-started)
+- [Software Requirements](#software-requirements)
+- [Architecture Design](#architecture-design)
+- [Data](#data)
 - [Funding](#funding)
 - [License for Data](#license-for-data)
 
+## **Background**
+This module covers basics of structural biology of proteins, visualization of details of protein structure and use computational and structural biology methods to design drugs that target protein receptors. Different methods of drug design, such as enzyme-based drug design, receptor-based drug design and protein-protein interaction drug design are covered. The module is developed in such a way that the user can go through the basic aspects of each section with activities that help to learn the concepts. Quiz and assignments are provided to reinforce the concepts learned. The module is divided into three submodules and these submodules are further divided into sections so that users can follow each section separately. Basic chemistry and Biochemistry knowledge is expected to work on these modules. Before working on submodules, users can go through training of PyMol molecular visualization software.
+
 ## **Overview**
-This course will guide you through the analysis of protein structures, drug-protein binding sites, and computational methods for drug discovery. You will learn how to visualize protein structures, perform docking, and analyze drug design methods using freely available tools.
-Duration: Self-paced
-Format: Tutorials, practical exercises, quizzes, and assignments
-Tools: All codes and analyses can be run using free web-based tools and Google Colab notebooks.
+- The <u>Structural Biology and Drug Discovery</u> module consists of three submodules and each of the three submodules are broken into three parts. 
+- In total the module consists of **nine** notebooks that you must complete. Details on each of the submodules are provided below:
 
+## **Module Design**
 
-## **Learning Objectives**
-By the end of this course, you will be able to:
- - Visualize 3D protein structures.
- - Understand protein secondary, tertiary, and quaternary structures.
- - Perform protein-ligand and protein-protein docking.
- - Design and analyze drug candidates using computational approaches.
- - Explore binding pockets and understand amino acid interactions in drug design.
+### Submodule 1 - Protein Structure
+This submodule serves as an introductory module for drug design, and any undergraduate student can use this module to learn the protein structure. The module starts with the learning of basic protein structure in detail from primary, secondary, tertiary, and quaternary structures with examples. Each part involves examples and tutorials using visualization software. Quizzes and assignments are provided to test the user’s knowledge.  This module can run on Google Cloud Platform (GCP) and python commands are used. Visualization is done in GUI mode or protein structure visualization tools can also be used in command mode using PyMol. 
 
+### Submodule 2 - Docking and Protein-Protein Interaction
+This module takes the user step-by-step through preparing the protein and ligand for docking calculations and analysis. Users can extract the ligands from the protein data bank. Ligands can also be prepared by sketching, generating a 3D structure of the ligand in PDB format.  Examples of PDB drug-protein complexes will be used to demonstrate docking using docking software. Analysis and preparation of files for presentation and detailed description are provided.
 
-## **Course Prerequisites**
+### Submodule 3 - Drug Design
+In this module, users learn different types of drug design with examples, visualization, and tutorials. Enzyme-based drug design, receptor-based drug design, and peptide-based drug design (along with protein-protein interaction and drug design) are demonstrated. This module uses all the software and knowledge used in Modules 1 and 2 and combines this knowledge to study the design of drugs. This module requires Modules 1 and 2 as prerequisites if the users are unfamiliar with the analysis of protein structure, binding cavity, docking, and protein-protein interactions
+
+<center><img src="images/LSU_draft_architecture_diagram.jpg" width=1500 /></center><br><br>
+
+## **Before Starting**
+Before you begin Submodule 1, go through the notebooks present within Submodule 0 to confirm that you can successfully spin up PyMOL and AutoDock virtual machines within GCP by following the instructions. 
 
 ## **Getting Started**
+After you work through Submodule 0 please begin working through Submodules 1 - 3 in order. Each submodule notebook will consist of some background information and activities. For the activities, you will execute the code cells and/or work within the PyMOL/AutoDock VM's that you create based on the guidance provided in Submodule 0.
 
 ## **Software Requirements**
-
-## **Architecture Design**
+Access to PyMOL and Autodock software are provided through Submodule 0. All other required software is either downloaded through code execution within the notebook or, in limited situations, accessed through internal sites using the provided links.
 
 ## **Data**
+- Coordinates of 3D structures of proteins and sequence of proteins are directly downloaded from the protein data bank (PDB) and Uniprot sequence database respectively. 
+- Some of the coordinates of protein domains are provided as a separate file (in directory (mention here)) so that users can use these files to visualize part of the protein for detailed measurement purposes.
 
 ## **Funding**
+This resource was supported with funds from NIH grant P20 GM103424-21 
 
 ## **License for Data**
+Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available here.
+
+
+
+
