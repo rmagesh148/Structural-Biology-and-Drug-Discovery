@@ -12,7 +12,7 @@ map hivreceptor.N.map                # atom-specific affinity map
 map hivreceptor.SA.map               # atom-specific affinity map
 elecmap hivreceptor.e.map            # electrostatics map
 desolvmap hivreceptor.d.map          # desolvation map
-move hivligand.pdbqt                 # small molecule
+move /config/bucket/Structural-Biology-and-Drug-Discovery/submodule2_docking_protein_interactions/data/hivligand.pdbqt                 # small molecule
 about -9.187 15.927 27.886            # small molecule center
 tran0 random                         # initial coordinates/A or random
 quaternion0 random                   # initial orientation
@@ -23,7 +23,7 @@ extnrg 1000.0                        # external grid energy
 e0max 0.0 10000                      # max initial energy; max number of retries
 ga_pop_size 150                      # number of individuals in population
 ga_num_evals 2500000                 # maximum number of energy evaluations
-ga_num_generations 27000             # maximum number of generations
+ga_num_generations 25000             # maximum number of generations
 ga_elitism 1                         # number of top individuals to survive to next generation
 ga_mutation_rate 0.02                # rate of gene mutation
 ga_crossover_rate 0.8                # rate of crossover
@@ -39,5 +39,5 @@ sw_lb_rho 0.01                       # lower bound on rho
 ls_search_freq 0.06                  # probability of performing local search on individual
 set_psw1                             # set the above pseudo-Solis & Wets parameters
 unbound_model bound                  # state of unbound ligand
-ga_run 50                            # do this many hybrid GA-LS runs
+ga_run 10                            # do this many hybrid GA-LS runs
 analysis                             # perform a ranked cluster analysis

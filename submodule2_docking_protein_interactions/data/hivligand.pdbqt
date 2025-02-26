@@ -1,11 +1,11 @@
 REMARK  12 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    1  A    between atoms: C2_3  and  C20_13 
-REMARK    2  A    between atoms: C2_3  and  N2_4 
+REMARK    1  A    between atoms: C2_3  and  N2_4 
+REMARK    2  A    between atoms: C2_3  and  C20_13 
 REMARK    3  A    between atoms: C3_5  and  C31_27 
 REMARK    4  A    between atoms: C6_10  and  C61_34 
-REMARK    5  A    between atoms: C7_11  and  C70_41 
-REMARK    6  A    between atoms: C7_11  and  N7_12 
+REMARK    5  A    between atoms: C7_11  and  N7_12 
+REMARK    6  A    between atoms: C7_11  and  C70_41 
 REMARK    7  A    between atoms: C22_15  and  C26_19 
 REMARK       I    between atoms: C26_19  and  N26_20 
 REMARK    8  A    between atoms: N26_20  and  C27_22 
@@ -41,10 +41,10 @@ HETATM   19  N26 XV6 A 638     -11.036  13.867  34.875  1.00 19.10    -0.183 NA
 HETATM   20  O26 XV6 A 638     -11.061  15.800  36.014  1.00 13.04    -0.265 OA
 BRANCH  19  21
 HETATM   21  C27 XV6 A 638     -11.671  13.058  35.909  1.00 20.36     0.197 A 
-HETATM   22  S29 XV6 A 638     -12.417  13.675  37.272  1.00 23.13    -0.046 SA
-HETATM   23  C29 XV6 A 638     -12.809  12.201  37.973  1.00 21.27     0.059 A 
-HETATM   24  C28 XV6 A 638     -12.319  11.237  37.076  1.00 23.23     0.108 A 
-HETATM   25  N27 XV6 A 638     -11.698  11.724  35.944  1.00 22.96    -0.219 NA
+HETATM   22  N27 XV6 A 638     -11.698  11.724  35.944  1.00 22.96    -0.219 NA
+HETATM   23  C28 XV6 A 638     -12.319  11.237  37.076  1.00 23.23     0.108 A 
+HETATM   24  C29 XV6 A 638     -12.809  12.201  37.973  1.00 21.27     0.059 A 
+HETATM   25  S29 XV6 A 638     -12.417  13.675  37.272  1.00 23.13    -0.046 SA
 ENDBRANCH  19  21
 ENDBRANCH  14  18
 ENDBRANCH  11  12
@@ -64,10 +64,10 @@ HETATM   34  N76 XV6 A 638      -6.446  16.461  20.869  1.00 11.46    -0.183 NA
 HETATM   35  O76 XV6 A 638      -8.176  17.490  19.874  1.00  6.24    -0.265 OA
 BRANCH  34  36
 HETATM   36  C77 XV6 A 638      -5.534  16.701  19.757  1.00 11.22     0.197 A 
-HETATM   37  S79 XV6 A 638      -5.788  17.857  18.552  1.00 17.73    -0.046 SA
-HETATM   38  C79 XV6 A 638      -4.436  17.424  17.623  1.00 17.63     0.059 A 
-HETATM   39  C78 XV6 A 638      -3.806  16.368  18.315  1.00 14.00     0.108 A 
-HETATM   40  N77 XV6 A 638      -4.423  15.982  19.488  1.00 16.25    -0.219 NA
+HETATM   37  N77 XV6 A 638      -4.423  15.982  19.488  1.00 16.25    -0.219 NA
+HETATM   38  C78 XV6 A 638      -3.806  16.368  18.315  1.00 14.00     0.108 A 
+HETATM   39  C79 XV6 A 638      -4.436  17.424  17.623  1.00 17.63     0.059 A 
+HETATM   40  S79 XV6 A 638      -5.788  17.857  18.552  1.00 17.73    -0.046 SA
 ENDBRANCH  34  36
 ENDBRANCH  29  33
 ENDBRANCH  26  27
