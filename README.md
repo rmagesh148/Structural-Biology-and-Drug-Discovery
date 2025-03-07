@@ -39,29 +39,40 @@ This module is designed to run on the Google Cloud Platform (GCP). Follow the in
 
 #### Setting up GCP
 
+
+
+This module is designed to run on the Google Cloud Platform (GCP).
+Follow the instructions below to prepare to run the module on GCP.
+
+<details>
+
+<summary>Setting up GCP</summary>
+
 See the [Vertex AI Quickstart instructions](https://cloud.google.com/vertex-ai/docs/workbench/instances/create-console-quickstart) for details on steps 1-5.
 
 1. Create a Google Cloud account
 2. Create a Google Cloud project
 3. Enable billing for your Google Cloud project
-4. Go to Vertex AI Workbench and create a new instance using `CREATE NEW` -> `ADVANCED OPTIONS` and use the following configurations:
-   * Details:<br/>&emsp;Region: us-east4<br/>&emsp;Zone: us-central1-a<br/>&emsp;Workbench type:<br/>&emsp;&emsp;Type: Instance
-   * Environment:<br/>&emsp;JupyterLab Version: JupyterLab 3.x
-   * Machine type:<br/>&emsp;Series: N2<br/>&emsp;Machine type: e2-standard-8<br/>&emsp;Idle shutdown:<br/>&emsp;&emsp;Enable Idle Shutdown: Checked<br/>&emsp;&emsp;Time of inactivity before shutdown (Minutes): 120
+4. Go to Vertex AI Workbench and create a new instance using "CREATE NEW" -> "ADVANCED OPTIONS" and use the following configurations:
+   * Details:<br/>&emsp;Region: us-east4<br/>&emsp;Zone: us-east4-a<br/>&emsp;Workbench type:<br/>&emsp;&emsp;Type: Instance
+   * Environment:<br/>&emsp;JupyterLab Version: JupyterLab 4.x
+   * Machine type:<br/>&emsp;Series: N2<br/>&emsp;Machine type: n2-standard-4<br/>&emsp;Idle shutdown:<br/>&emsp;&emsp;Enable Idle Shutdown: Checked<br/>&emsp;&emsp;Time of inactivity before shutdown (Minutes): 60
    * Disks: Use default settings
    * Networking:<br/>&emsp;Assign external IP address: Checked<br/>&emsp;Allow proxy access: Checked
    * IAM and security<br/>&emsp;Security options:<br/>&emsp;&emsp;Root access to the instance: Checked<br/>&emsp;&emsp;File downloading: Checked<br/>&emsp;&emsp;Terminal access: Checked
    * System health: Use default settings
-6. Click `OPEN JUPYTERLAB` on your instance to open JupyterLab
-
-#### Clone Repository
-
-To clone the Github repository for this module in JupyterLab, open a Terminal (File -> New Launcher -> Terminal) and run the following commands:
+5. Click "OPEN JUPYTERLAB" on your instance to open JupyterLab
+6. To clone the Github repository for this module in JupyterLab, open a Terminal (File -> New Launcher -> Terminal) and run the following commands:
 ```bash
 cd ~
 git clone https://github.com/rmagesh148/Structural-Biology-and-Drug-Discovery.git
 ```
-After the last command completes there should be a folder name *Structural-Biology-and-Drug-Discovery* that contains each submodule directory. Start with Submodule 0 to confirm you can spin up the PyMOL and AutoDock GUIs.
+<br>    
+After the last command completes there should be a folder name *Structural-Biology-and-Drug-Discovery* that contains each submodule directory. Start with Submodule 0 to confirm you can spin up the PyMOL and AutoDock GUIs.    
+
+</details>
+
+
 
 ## **Getting Started**
 After you work through Submodule 0 please begin working through Submodules 1 - 3 in order. Each submodule notebook will consist of some background information and activities. For the activities, you will execute the code cells and/or work within the PyMOL/AutoDock VM's that you create based on the guidance provided in Submodule 0. Submodule 4 contains **OPTIONAL** activities relevant to the knowledge and skills provided through navigating Submodules 1-3 that can be completed for extra practice.
